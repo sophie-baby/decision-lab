@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../vendor/shadcn-tailwind-4.13.0.css";
+:root {
+  --background:#f3f6fb;--foreground:#15213a;--card:#fff;--card-foreground:#15213a;--popover:#fff;--popover-foreground:#15213a;
+  --primary:#175cd3;--primary-foreground:#fff;--secondary:#eaf0fb;--secondary-foreground:#1b3f7a;--muted:#edf1f7;
+  --muted-foreground:#60708c;--accent:#e6efff;--accent-foreground:#174c9f;--destructive:#d92d20;--border:#dce3ee;
+  --input:#d7dfeb;--ring:#175cd3;--chart-1:#175cd3;--chart-2:#e35f45;--chart-3:#7b61c9;--chart-4:#0e9384;--chart-5:#dc9b17;--radius:.85rem;
+}
+@theme inline {
+  --color-background:var(--background);--color-foreground:var(--foreground);--color-card:var(--card);--color-card-foreground:var(--card-foreground);
+  --color-popover:var(--popover);--color-popover-foreground:var(--popover-foreground);--color-primary:var(--primary);--color-primary-foreground:var(--primary-foreground);
+  --color-secondary:var(--secondary);--color-secondary-foreground:var(--secondary-foreground);--color-muted:var(--muted);--color-muted-foreground:var(--muted-foreground);
+  --color-accent:var(--accent);--color-accent-foreground:var(--accent-foreground);--color-destructive:var(--destructive);--color-border:var(--border);
+  --color-input:var(--input);--color-ring:var(--ring);--radius-sm:calc(var(--radius) - 4px);--radius-md:calc(var(--radius) - 2px);
+  --radius-lg:var(--radius);--radius-xl:calc(var(--radius) + 4px);--font-sans:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+}
+*{box-sizing:border-box} body{margin:0;background:var(--background);color:var(--foreground);font-family:var(--font-sans)} button,input{font:inherit}
